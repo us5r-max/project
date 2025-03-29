@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+button {
+    height: 50%;
+    border: none;
+    background-color: transparent;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+header {
+    padding: 12px 40px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 10%;
+}
+
+.main-nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav {
+    color: lightgreen;
+}
+
+.btn-container {
+    margin-left: auto;
+}
+
+.btn-container button {
+    padding: 10px 15px;
+}
+
+.purple-button {
+    margin-left: 10px;
+    background-color: crimson;
+    color: #fff;
+    border-radius: 13px;
+}
+
+header {
+    background-color: darkorange;
+}
+

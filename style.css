@@ -1,59 +1,79 @@
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    list-style-type: none;
 }
 
-button {
-    height: 50%;
-    border: none;
-    background-color: transparent;
+header {
+    text-align: center;
+    background-color: #254;
+    color: white;
+    padding: 20px;
 }
 
-a {
-    color: #000;
+nav a {
+    margin: 0 15px;
+    color: white;
     text-decoration: none;
 }
 
-header {
-    padding: 12px 40px;
+section {
+    padding: 20px;
 }
 
-nav {
+.project-gallery {
     display: flex;
-    align-items: center;
+    gap: 20px;
 }
 
-.logo {
-    width: 10%;
+.f {
+  width: 200px; 
 }
 
-.main-nav {
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
+.d {
+    width: 50%; 
 }
 
-.main-nav {
-    color: lightgreen;
+.about {
+    background-color: #cfa75d;
 }
 
-.btn-container {
-    margin-left: auto;
+.Hobbi {
+    background-color: #cfa75d;
 }
 
-.btn-container button {
-    padding: 10px 15px;
+.projects {
+    background-color: #cfa75d;
 }
 
-.purple-button {
-    margin-left: 10px;
-    background-color: crimson;
-    color: #fff;
-    border-radius: 13px;
+
+.Foto1 {
+    width: 100px; 
 }
 
-header {
-    background-color: darkorange;
+
+.Foto2 {
+    width: 100px; 
 }
 
+
+
+.Foto3 {
+    width: 100px; 
+}
+
+
+
+section a {
+    margin: 10%;
+}
+
+
+.Foo {
+    width: 400px; 
+}
+
+
+.fooo {
+    width: 200px; 
+}
